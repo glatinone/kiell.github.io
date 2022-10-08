@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="keywords" content="HTML, CSS, JavaScript">
+      <meta name="description" content="A clean, beautiful and responsive portfolio template for Developers! using only Html, CSS, and JavaScript">
+      <meta name="author" content="Kiel Tampubolon">
+
+      <title>Kiel Tampubolon | Cyber Security</title>
+
+      <!-- Icon Webs -->
+      <!-- <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/1055/1055666.png" /> -->
+      <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/3242/3242257.png" />
+
+      <link href="./css/header.css" rel="stylesheet" />
+      <link href="./css/main.css" rel="stylesheet" />
+      <link href="./css/home.css" rel="stylesheet" />
+      <link href="./css/about.css" rel="stylesheet" />
+      <link href="./css/service.css" rel="stylesheet" />
+      <link href="./css/portfolio.css" rel="stylesheet" />
+      <link href="./css/testimonials.css" rel="stylesheet" />
+      <link href="./css/testimonials.css" rel="stylesheet" />
+      <link href="./css/blog.css" rel="stylesheet" />
+      <link href="./css/contact.css" rel="stylesheet" />
+      <link href="./css/footer.css" rel="stylesheet" />
+   </head>
+   <body>
+      <header>
+         <div class="container">
+            <div class="row">
+               <div class="brand-name">
+                  <a href="/" class="logo">glatinone</a>
+               </div>
+               <div class="hamburger">
+                  <i class="fa fa-bars"></i>
+               </div>
+               <div class="navbar">
+                  <ul>
+                     <li><a href="#home" class="active">Home</a></li>
+                     <li><a href="#about">About</a></li>
+                     <li><a href="#services">Services</a></li>
+                     <li><a href="#portfolio">Portfolio</a></li>
+                     <li><a href="#blog">Blog</a></li>
+                     <li><a href="#contact">Contact</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </header>
+      <section class="home" id="home">
+         <div class="container">
+            <div class="row full-screen">
+               <div class="home-content">
+                  <div class="block">
+                     <h6>Hi, My Name is</h6>
+                     <h1>Yehezkiel Tampubolon</h1>
+                     <!-- <h3>A Cybersecurity Student/Enthusiast</h3> -->
+                     <!-- Atur Padding dan Margin-->
+                     <h3 class="cd-headline clip">
+                     <span class="blc">I'm </span>
+                     <span class="cd-words-wrapper">
+                     <b class="is-visible">Web Developer</b>
+                     <b>Web Designer</b>
+                     <b>Gamer</b>
+                     <b>Student</b>
+               </span>
+             </h3>
+
+                     <div class="cv-btn">
+                        <a href="#" target="_blank">Donwload CV</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="about" id="about">
+         <div class="container">
+         <div class="row">
+            <div class="title">
+               <h1>Fundamental Access Control </h1>
+               <p>RKS324 - Basis Data </p>
+            </div>
+         </div>
+         <div>
+            <div class="about-content">
+               <div>
+                  <div class="text">
+                     <h3>Apa Itu Privilege dalam Mysql ?</h3>
+
+                        <p>Maksud privilege disini adalah hak akses yang akan diberikan kepada user tersebut, privilege disini berisi query yang diperbolehkan, seperti select, insert, update, delete, dll. Selain dibatasi dalam query yang diperbolehkan, bisa juga dibatasi pada level dimana query tersebut akan dijalankan.</p>
+                        <img src="images/tugas5/4.png" class="img-fluid mb-lg-3" alt="">
+
+                     <h5>Membuat tiga user dengan privilege yang berbeda</h5>
+                        <p>a.	User 1
+                           Dalam pembuatan user 1 saya memberi nama “ikel” dan saya berikan akses untuk select dan insert pada tabel studio
+                           </p>
+
+                        <p>Kemudian saya akan login sebagai “ikel” untuk melihat dan menambahkan tabel data baru ke tabel studio. Berikut merupakan tabel awal dari studio</p>
+
+                        <p>Untuk command silahkan ketik: “INSERT INTO Studio VALUES ('Marvel', 'Burbank, California, USA', 'Kevin Feige');”. Dan kemudian tampilkan ulang tabel studios:</p>
+                     <p>6. Setelah create database kembali lagi ke tab yang tadi, lalu isi form yang
+                           sesuai dengan data yang valid</p>
+
+                        <p>7. Lalu akan dialihkan ke halaman dashboard, dan sudah mulai bisa
+                           membuat website yang di ingikan.</p>
+                        <p>8. Berikut adalah contoh tampilan yang sudah diganti menggunakan
+                           Template Wordpress tanpa perlu coding</p>
+
+                        <p>9. Untuk website tersebut sebenarnya masih banyak lagi yang perlu untuk
+                           di perbaharui dan di edit supaya lebih responsive dan menarik.</p>
+                      <h3>B. Membuat Website 3 Wordpress terpisah dengan database Mysql</h3>  
+                        <p>1. Siapkan aplikasi vitualbox atau vmware untuk menjalankan os virtual disini saya menggunakan Ubuntu Server, Buat terbagi 2 Mesin VM yaitu Webserver dan Database Server.</p>
+                        <p>2. Setelah selesai install, pertama yang harus dilakukan adalah command <i>apt-get update dan apt-get upgrade</i> pada kedua machine</p>
+                        <p></p>
+
+
+                        <p><b> <center> Step Untuk Machine Web Server </center></b></p>
+                        <p>3. Jalankan Command apt-get install apache2, lalu pilih yes dan tunggu. Lalu untuk cek status apakah apache sudah berjalan atau belum dengan ketik command systemctl status apache2, untuk restart service</p>
+
+                        <p>4. Selanjutnya atur ip static pada vm dengan command sudo nano /etc/netplan/00-installer-config.yaml, disini saya menggunakan Ip 192.168.0.120 untuk webserver</p>
+                        <p>5. Lalu coba akses browser ip yang tadi apabila berhasil maka akan muncul halaman apache2 default page</p>
+                        
+                        <p>6. Selanjutnya install sudo apt-get install mysql-client, dan pilih yes lalu tunggu</p>
+                        <p>7. Install juga apt-get install php php-mysql dan tunggu proses instalasi</p>
+                        <p>8. Setelah selesai buat sebuah file testing disini saya membuat file info.php kedalam folder /var/www/html dan ketik beberapa baris command line</p>
+                        <p>9. Jika sudah selanjut nya buka di browser ip webserver tadi seperti dibawah, Apabila berhasil maka akan menampilkan php yang digunakan</p>
+
+                        <p><b> <center> Step Untuk Database Server </center></b></p>
+                        <p>10. Setelah update dan upgrade, kita atur ip static sama seperti webserver tadi, disini saya menggunakan ip statis 192.168.0.175</p>
+                        
+                        <p>11. Lalu install aplikasi yang akan dijalankan nanti, pertama sudo apt-get install mysql-server</p>
+                        <p>12. Lalu kita masuk kepada konfigurasi mysql nya agar bisa di akses</p>
+                        <p>13. Ketik command sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf</p>
+                        <p>14. Yang diganti pada config disini adalah pada bagian bind-address dari 127.0.0.1 menjadi IP SERVER DATABASE 192.168.0.175</p>
+                        
+                        <p>15. Setelah diganti selanjutnya kita restart dengan command sudo systemctl restart mysql</p>
+                        <p>16. Langkah selanjutnya membuat user baru untuk dapat mengakses database lewat webserver seperti command dibawah ini</p>
+
+                        <p>17. Selanjutnya Kembali konfigurasi webserver login mysql dengan command mysql -u glatinone -h 192.168.0.175 -p</p>
+                        <p>18. Lalu cek informasi database yang telah dibuat pada mysql dengan command \s</p>
+                        <p>19. Selanjutnya kita membuat database wordpress pada database server. Masuk ke sql lagi dengan command mysql -u root -p</p>
+                        <p>20. Lalu ikuti command seperti dibawah ini :</p>
+
+                        <p>21. Setelah ok semua ketik exit untuk keluar dari mysql</p>
+                        <p>22. Download dan ekstrak terlebih dahulu file wordpress nya seperti ibawah ini, yaitu befungsi untuk mendownload wp dari website resmi nya</p>
+
+                        <p>23. Selanjutnya kita buka browser dan ketikkan alamat ip webserver slash /wordpress</p>
+                        <p>24. Continue, dan isi data sesuai dengan mysql yang di input tadi</p>
+                        <p>25. Lalu submit dan isi data yang di minta maka penginstallan wordpress sudah berhasil dilakukan. Langkah selanjutnya yang dilakukan adalah ganti tema dengan template yang tersedia gratis.</p>
+                        <p>26. Berikut adalah file config jika di lihat dari cli webserver, wp-config.php</p>
+                        <p>27. Selanjutnya membuat website ke 2 dan ke 3 hampir mirip caranya, hanya mulai dari install databasewordpress dan cms nya saja.. untuk webserver dan database server yang digunakan tetap sama, hanya saja dibedakan penamaan nya</p>
+                        <h4>C. Fungsi dari Union, Select, Wait dan - - </h4>>
+                        <p>1. Fungsi UNION pada SQL digunakan untuk menggabungkan dua tabel dalam bentuk baris baru ke bawah dimana field yang di-SELECT antara tabel satu dan lainnya adalah harus sama.</p>
+                        <p>2. Fungsi dari SELECT, Perintah ini digunakan untuk menampilkan, mengambil maupun memilah informasi dari database atau data dari satu tabel serta beberapa tabel dalam relasi.</p>
+                        <p>3. Fungsi dari WAIT/SLEEP , yaitu untuk memberi jeda waktu sesuai detik yang di input untuk memperlambat waktu pengiriman data kembali, seperti contoh dibawah</p>
+                        <p>4. Fungsi dari - -, adalah untuk memberi comment pada command sql tadi</p>
+                        <p></p>
+                        <p><center> Demikian Laporan Praktikum saya apabila ada kesalahan mohon dimaafkan, Sekian Dan Terimakasih</center></p>
+                        <p></p>
+                        <p></p>
+
+                     </div>
+                  </div>
+               </div>
+            </div>
+      <section class="contact" id="contact">
+         <div class="container">
+            <div class="row">
+               <div class="title text-center">
+                  <h1>Get In Touch</h1>
+               </div>
+            </div>
+            <div class="row">
+               <div class="contact-form">
+                  <div class="row">
+                     <div class="contact-text">
+                        <h2>Drop Me message</h2>
+                        <p>My inbox is always open I'll try my best to get back to you!</p>
+                     </div>
+                  </div>
+                  <div class="row space-between">
+                     <div class="col-6">
+                        <input type="text" class="form-control" name="" placeholder="Name" />
+                     </div>
+                     <div class="col-6">
+                        <input type="text" class="form-control" name="" placeholder="Email" />
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-12">
+                        <textarea class="form-control" placeholder="Your Message"></textarea>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="button btn">
+                        <a href="#">Get In Touch</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <footer>
+         <div class="container">
+            <div class="row">
+               <div class="footer-logo">glatinone</div>
+               <div class="social-link">
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href="https://www.instagram.com/kiel.at" target="_blank"><i class="fa fa-instagram"></i></a>
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href="https://www.linkedin.com/in/kiel-tampubolon/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                  <a href=""><i class="fa fa-github"></i></a>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <section class="copyright">
+         <div class="container">
+            <p>© <span id="year"></span> | Designed and Developed By Kiel Tampubolon. | All rights reserved.</p>
+         </div>
+      </section>
+      <div class="lightbox hide">
+         <span class="close-lightbox fa fa-close"></span>
+         <img src="" alt="portfolio"/>
+      </div>
+      <script src="./js/app.js"></script>
+   </body>
+</html>
+
